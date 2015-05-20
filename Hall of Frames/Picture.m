@@ -10,4 +10,16 @@
 
 @implementation Picture
 
+-(instancetype)initWithPictures:(NSMutableArray *)pictures {
+
+    self = [super init];
+
+    if (self) {
+        self.pictures = pictures;
+    }
+    return self;
+}
+
+
 @end
+
