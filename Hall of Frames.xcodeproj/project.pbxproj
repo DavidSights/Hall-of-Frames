@@ -14,6 +14,9 @@
 		9A8F484D1B0D02E30082F9D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8F484C1B0D02E30082F9D4 /* Images.xcassets */; };
 		9A8F48501B0D02E30082F9D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8F484E1B0D02E30082F9D4 /* LaunchScreen.xib */; };
 		9A8F485C1B0D02E30082F9D4 /* Hall_of_FramesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F485B1B0D02E30082F9D4 /* Hall_of_FramesTests.m */; };
+		A41C23A01B0D0FD0009CDDFD /* PictureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C239F1B0D0FD0009CDDFD /* PictureCollectionViewCell.m */; };
+		A41C23A31B0D0FEE009CDDFD /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C23A21B0D0FEE009CDDFD /* Picture.m */; };
+		A41C23A51B0D10EA009CDDFD /* CustomizationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A41C23A41B0D10EA009CDDFD /* CustomizationView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		9A8F48551B0D02E30082F9D4 /* Hall of FramesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hall of FramesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8F485A1B0D02E30082F9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A8F485B1B0D02E30082F9D4 /* Hall_of_FramesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hall_of_FramesTests.m; sourceTree = "<group>"; };
+		A41C239E1B0D0FD0009CDDFD /* PictureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureCollectionViewCell.h; sourceTree = "<group>"; };
+		A41C239F1B0D0FD0009CDDFD /* PictureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureCollectionViewCell.m; sourceTree = "<group>"; };
+		A41C23A11B0D0FEE009CDDFD /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
+		A41C23A21B0D0FEE009CDDFD /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
+		A41C23A41B0D10EA009CDDFD /* CustomizationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomizationView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +93,12 @@
 				9A8F48441B0D02E30082F9D4 /* AppDelegate.m */,
 				9A8F48461B0D02E30082F9D4 /* ViewController.h */,
 				9A8F48471B0D02E30082F9D4 /* ViewController.m */,
+				A41C239E1B0D0FD0009CDDFD /* PictureCollectionViewCell.h */,
+				A41C239F1B0D0FD0009CDDFD /* PictureCollectionViewCell.m */,
+				A41C23A11B0D0FEE009CDDFD /* Picture.h */,
+				A41C23A21B0D0FEE009CDDFD /* Picture.m */,
 				9A8F48491B0D02E30082F9D4 /* Main.storyboard */,
+				A41C23A41B0D10EA009CDDFD /* CustomizationView.xib */,
 				9A8F484C1B0D02E30082F9D4 /* Images.xcassets */,
 				9A8F484E1B0D02E30082F9D4 /* LaunchScreen.xib */,
 				9A8F483F1B0D02E30082F9D4 /* Supporting Files */,
@@ -201,6 +214,7 @@
 			files = (
 				9A8F484B1B0D02E30082F9D4 /* Main.storyboard in Resources */,
 				9A8F48501B0D02E30082F9D4 /* LaunchScreen.xib in Resources */,
+				A41C23A51B0D10EA009CDDFD /* CustomizationView.xib in Resources */,
 				9A8F484D1B0D02E30082F9D4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A8F48481B0D02E30082F9D4 /* ViewController.m in Sources */,
+				A41C23A31B0D0FEE009CDDFD /* Picture.m in Sources */,
+				A41C23A01B0D0FD0009CDDFD /* PictureCollectionViewCell.m in Sources */,
 				9A8F48451B0D02E30082F9D4 /* AppDelegate.m in Sources */,
 				9A8F48421B0D02E30082F9D4 /* main.m in Sources */,
 			);
@@ -416,6 +432,7 @@
 				9A8F48611B0D02E30082F9D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A8F48621B0D02E30082F9D4 /* Build configuration list for PBXNativeTarget "Hall of FramesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +441,7 @@
 				9A8F48641B0D02E30082F9D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
