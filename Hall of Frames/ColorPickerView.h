@@ -7,15 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PictureWithProperties.h"
 
 @protocol CustomViewDelegate <NSObject>
 
--(void)buttonTapped:(UIButton *)button;
+-(void)buttonTapped;
 
 @end
 
-@interface CustomView : UIView
+
+@interface ColorPickerView : UIView
 
 @property (nonatomic, assign) id <CustomViewDelegate> delegate;
+@property PictureWithProperties *picture;
 
 @end

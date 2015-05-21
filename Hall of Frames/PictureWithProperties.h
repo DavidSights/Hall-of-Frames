@@ -10,12 +10,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Picture : NSObject
+@interface PictureWithProperties : NSObject
 
 @property UIImage *image;
 @property UIColor *frameColor;
-@property NSMutableArray *pictures;
-
--(instancetype)initWithPictures:(NSMutableArray *)pictures;
 
 @end

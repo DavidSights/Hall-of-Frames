@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface PictureCollectionViewCell : UICollectionViewCell
 
-@property (weak, nonatomic) IBOutlet UILabel *testLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end

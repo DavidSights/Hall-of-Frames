@@ -14,9 +14,9 @@
 		9A8F484D1B0D02E30082F9D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8F484C1B0D02E30082F9D4 /* Images.xcassets */; };
 		9A8F48501B0D02E30082F9D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8F484E1B0D02E30082F9D4 /* LaunchScreen.xib */; };
 		9A8F485C1B0D02E30082F9D4 /* Hall_of_FramesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F485B1B0D02E30082F9D4 /* Hall_of_FramesTests.m */; };
-		9A8F48671B0D2E7A0082F9D4 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F48661B0D2E7A0082F9D4 /* CustomView.m */; };
+		9A8F48671B0D2E7A0082F9D4 /* ColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F48661B0D2E7A0082F9D4 /* ColorPickerView.m */; };
 		A41C23A01B0D0FD0009CDDFD /* PictureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C239F1B0D0FD0009CDDFD /* PictureCollectionViewCell.m */; };
-		A41C23A31B0D0FEE009CDDFD /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C23A21B0D0FEE009CDDFD /* Picture.m */; };
+		A41C23A31B0D0FEE009CDDFD /* PictureWithProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C23A21B0D0FEE009CDDFD /* PictureWithProperties.m */; };
 		A41C23A51B0D10EA009CDDFD /* CustomizationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A41C23A41B0D10EA009CDDFD /* CustomizationView.xib */; };
 /* End PBXBuildFile section */
 
@@ -44,12 +44,12 @@
 		9A8F48551B0D02E30082F9D4 /* Hall of FramesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hall of FramesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8F485A1B0D02E30082F9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A8F485B1B0D02E30082F9D4 /* Hall_of_FramesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hall_of_FramesTests.m; sourceTree = "<group>"; };
-		9A8F48651B0D2E7A0082F9D4 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
-		9A8F48661B0D2E7A0082F9D4 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		9A8F48651B0D2E7A0082F9D4 /* ColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerView.h; sourceTree = "<group>"; };
+		9A8F48661B0D2E7A0082F9D4 /* ColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerView.m; sourceTree = "<group>"; };
 		A41C239E1B0D0FD0009CDDFD /* PictureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureCollectionViewCell.h; sourceTree = "<group>"; };
 		A41C239F1B0D0FD0009CDDFD /* PictureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureCollectionViewCell.m; sourceTree = "<group>"; };
-		A41C23A11B0D0FEE009CDDFD /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
-		A41C23A21B0D0FEE009CDDFD /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
+		A41C23A11B0D0FEE009CDDFD /* PictureWithProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureWithProperties.h; sourceTree = "<group>"; };
+		A41C23A21B0D0FEE009CDDFD /* PictureWithProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureWithProperties.m; sourceTree = "<group>"; };
 		A41C23A41B0D10EA009CDDFD /* CustomizationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomizationView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,16 +94,16 @@
 			children = (
 				9A8F48431B0D02E30082F9D4 /* AppDelegate.h */,
 				9A8F48441B0D02E30082F9D4 /* AppDelegate.m */,
-				9A8F48461B0D02E30082F9D4 /* ViewController.h */,
-				9A8F48471B0D02E30082F9D4 /* ViewController.m */,
 				A41C239E1B0D0FD0009CDDFD /* PictureCollectionViewCell.h */,
 				A41C239F1B0D0FD0009CDDFD /* PictureCollectionViewCell.m */,
-				A41C23A11B0D0FEE009CDDFD /* Picture.h */,
-				A41C23A21B0D0FEE009CDDFD /* Picture.m */,
+				9A8F48461B0D02E30082F9D4 /* ViewController.h */,
+				9A8F48471B0D02E30082F9D4 /* ViewController.m */,
+				A41C23A11B0D0FEE009CDDFD /* PictureWithProperties.h */,
+				A41C23A21B0D0FEE009CDDFD /* PictureWithProperties.m */,
+				9A8F48651B0D2E7A0082F9D4 /* ColorPickerView.h */,
+				9A8F48661B0D2E7A0082F9D4 /* ColorPickerView.m */,
 				9A8F48491B0D02E30082F9D4 /* Main.storyboard */,
 				A41C23A41B0D10EA009CDDFD /* CustomizationView.xib */,
-				9A8F48651B0D2E7A0082F9D4 /* CustomView.h */,
-				9A8F48661B0D2E7A0082F9D4 /* CustomView.m */,
 				9A8F484C1B0D02E30082F9D4 /* Images.xcassets */,
 				9A8F484E1B0D02E30082F9D4 /* LaunchScreen.xib */,
 				9A8F483F1B0D02E30082F9D4 /* Supporting Files */,
@@ -239,11 +239,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A8F48481B0D02E30082F9D4 /* ViewController.m in Sources */,
-				A41C23A31B0D0FEE009CDDFD /* Picture.m in Sources */,
+				A41C23A31B0D0FEE009CDDFD /* PictureWithProperties.m in Sources */,
 				A41C23A01B0D0FD0009CDDFD /* PictureCollectionViewCell.m in Sources */,
 				9A8F48451B0D02E30082F9D4 /* AppDelegate.m in Sources */,
 				9A8F48421B0D02E30082F9D4 /* main.m in Sources */,
-				9A8F48671B0D2E7A0082F9D4 /* CustomView.m in Sources */,
+				9A8F48671B0D2E7A0082F9D4 /* ColorPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
